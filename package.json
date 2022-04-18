@@ -1,0 +1,38 @@
+{
+  "name": "bilibili-open-live",
+  "version": "0.0.1",
+  "description": "Bilibili Open Live",
+  "type": "module",
+  "main": "node.js",
+  "browser" : "browser.js",
+  "scripts": {
+    "tsc": "tsc -b",
+    "dev": "tsc -b -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon300000/bilibili-open-live.git"
+  },
+  "keywords": [
+    "bilibili",
+    "websocket",
+    "open",
+    "live",
+    "danmaku"
+  ],
+  "author": "simon3000 <simon30002021@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simon300000/bilibili-open-live/issues"
+  },
+  "homepage": "https://github.com/simon300000/bilibili-open-live#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^17.0.24",
+    "typescript": "^4.6.3"
+  }
+}
